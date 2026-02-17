@@ -1,0 +1,136 @@
+{
+  "branding": {
+    "primaryColor": "#3DDC84",
+    "secondaryColor": "#2AAE68",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#000000"
+  },
+  "profile": {
+    "name": "Kishan Thakkar",
+    "role": "Senior Android Engineer",
+    "tagline": "Building offline-first, payment-grade Android systems used in real businesses.",
+    "summary": "Senior Android Engineer with 6+ years of experience in Kotlin, Jetpack Compose, and Clean Architecture, specializing in POS systems, offline-first architectures, and payment workflows."
+  },
+  "experience": [
+    {
+      "company": "Crest Infosystems Pvt. Ltd.",
+      "role": "Senior Software Engineer",
+      "duration": "May 2023 – Present",
+      "highlights": [
+        "Migrated legacy Android codebases to a multi-module Clean Architecture setup",
+        "Architected a white-label POS platform using product flavors",
+        "Designed offline-first payment workflows using Room and WorkManager, reducing payment time by 70%",
+        "Integrated PAX, Verifone, and Visa Tap-to-Glass terminals",
+        "Implemented coroutine-based, non-blocking calculation pipelines reducing UI frame drops by 56%"
+      ],
+      "tech": ["Kotlin", "Jetpack Compose", "Room", "WorkManager", "Coroutines", "POS", "Payments"]
+    },
+    {
+      "company": "Narola Infotech",
+      "role": "Senior Software Engineer",
+      "duration": "Jun 2021 – Apr 2023",
+      "highlights": [
+        "Built a high-performance multimedia application using C++ (NDK), Oboe, and FFmpeg",
+        "Reduced audio latency from 500ms+ to under 100ms",
+        "Implemented Reels-style video feeds with stable 60fps performance"
+      ],
+      "tech": ["C++", "NDK", "FFmpeg", "Oboe", "RxJava", "Coroutines"]
+    },
+    {
+      "company": "BeetonZ Infotech",
+      "role": "Android Application Developer",
+      "duration": "Jun 2019 – Apr 2021",
+      "highlights": [
+        "Owned the Android application lifecycle from requirements to Play Store deployment",
+        "Built AR-based utility apps using ARCore and OpenGL"
+      ],
+      "tech": ["Java", "ARCore", "OpenGL", "Android SDK"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Enterprise POS Systems (Delta1st, Totill)",
+      "description": "Enterprise-grade, offline-first POS systems designed for real-world connectivity and hardware constraints.",
+      "impact": [
+        "Zero data loss during network outages",
+        "Visa Tap-to-Glass support",
+        "Secure encrypted local storage for compliance"
+      ],
+      "tech": ["Kotlin", "Room", "WorkManager", "EncryptedSharedPreferences", "Payments", "POS Hardware"]
+    },
+    {
+      "name": "Miclab – Multimedia Platform",
+      "description": "High-performance local audio/video processing platform with real-time effects.",
+      "impact": [
+        "Live audio processing with effects and filters",
+        "Local video watermarking pipeline"
+      ],
+      "tech": ["C++", "NDK", "FFmpeg", "Oboe"]
+    },
+    {
+      "name": "BeatX – Offline Music Player",
+      "description": "Fully offline-first audio player with efficient local media caching and indexing.",
+      "impact": [
+        "Dark mode, dynamic theming, and MediaSession APIs",
+        "Background playback with notification controls",
+        "Optimized UI rendering for smooth UX"
+      ],
+      "tech": ["Kotlin", "MediaSession", "Coroutines", "Room"]
+    },
+    {
+      "name": "All Recovery – File Recovery App",
+      "description": "High-performance file scanning and recovery engine using scoped storage APIs.",
+      "impact": [
+        "Coroutine-based background processing",
+        "Intelligent caching mechanisms",
+        "Modular architecture with strong separation of concerns"
+      ],
+      "tech": ["Kotlin", "Scoped Storage", "Coroutines", "Clean Architecture"]
+    },
+    {
+      "name": "Writi – Healthcare Management System",
+      "description": "Real-time patient management and PMR system with secure virtual consultations.",
+      "impact": [
+        "Live data sync via Socket.IO across users",
+        "Secure virtual consultations via Twilio",
+        "Reduced paperwork by 50%"
+      ],
+      "tech": ["Kotlin", "MVVM", "Socket.IO", "Twilio"]
+    }
+  ],
+  "skills": {
+    "languages": ["Kotlin", "Java", "SQL", "C++ (NDK/JNI)"],
+    "architecture": ["Clean Architecture", "MVVM", "MVI", "SOLID", "Multi-Module Design"],
+    "android": ["Jetpack Compose", "Coroutines", "Flow", "Room", "WorkManager"],
+    "payments": ["PAX", "Verifone", "Visa Tap-to-Glass", "Thermal Printers"],
+    "tools": ["Git", "GitHub Actions", "Gradle KTS", "Firebase", "Jira", "SonarQube"]
+  },
+  "contact": {
+    "email": "kishan.thakkar38@gmail.com",
+    "phone": "+91 9687745806",
+    "linkedin": "https://www.linkedin.com/in/kishan-thakkar-387455b9",
+    "resumeUrl": "https://drive.google.com/file/d/1T1oZq4_oWepd5vgm3ygJh03oOlcnLlnU/view?usp=sharing"
+  },
+  "currentFocus": [
+    {
+      "title": "Android Development",
+      "icon": "Smartphone",
+      "description": "Building native Android applications using Kotlin, Jetpack Compose, and modern architectural patterns."
+    },
+    {
+      "title": "System Design",
+      "icon": "Code",
+      "description": "Continuously improving problem-solving skills through daily practice of data structures and algorithms."
+    },
+    {
+      "title": "Payment Integrations",
+      "icon": "Database",
+      "description": "Expanding expertise in payment terminal integrations and PCI-compliant architectures."
+    },
+    {
+      "title": "Building Solutions",
+      "icon": "Rocket",
+      "description": "Creating tech projects from scratch that can solve real-world problems at scale."
+    }
+  ]
+}

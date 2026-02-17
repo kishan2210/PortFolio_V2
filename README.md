@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
+# Portfolio Website
 
-## Project info
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. This project showcases a clean and professional design with smooth animations and a great user experience.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Features
 
-## How can I edit this code?
+- **Modern UI/UX**: Built with shadcn-ui components for a polished look
+- **Fully Responsive**: Works seamlessly across all device sizes
+- **Type-Safe**: Written in TypeScript for better code quality
+- **Fast Performance**: Powered by Vite for lightning-fast development and builds
+- **Customizable**: Easy to modify and extend with your own content
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## 🛠️ Technologies Used
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Next generation frontend tooling
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI library
+- **shadcn-ui** - High-quality UI components
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router** - Client-side routing
+- **Lucide React** - Beautiful icon library
 
-## How can I deploy this project?
+## 📦 Getting Started
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Prerequisites
 
-## Can I connect a custom domain to my Lovable project?
+- Node.js (v16 or higher)
+- npm or bun
 
-Yes, you can!
+### Installation
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Clone the repository:
+```sh
+git clone <YOUR_GIT_URL>
+cd <YOUR_PROJECT_NAME>
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+2. Install dependencies:
+```sh
+npm install
+# or
+bun install
+```
+
+3. Start the development server:
+```sh
+npm run dev
+# or
+bun dev
+```
+
+## 🏗️ Build for Production
+
+To create a production build:
+
+```sh
+npm run build
+# or
+bun run build
+```
+
+To preview the production build locally:
+
+```sh
+npm run preview
+# or
+bun preview
+```
+
+## 📝 Project Structure
+
+```
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Page components
+│   ├── lib/            # Utility functions
+│   └── App.tsx         # Main application component
+├── public/             # Static assets
+└── index.html          # Entry HTML file
+```
+
+## 🎨 Customization
+
+1. **Update Content**: Modify the components in `src/pages/` to add your own content
+2. **Styling**: Customize colors and themes in `tailwind.config.ts`
+3. **Components**: Add or modify components in `src/components/`
+
+## 📄 License
+
+ISC
+
+## 🤝 Contributing
+
+Feel free to fork this project and customize it for your own portfolio!
